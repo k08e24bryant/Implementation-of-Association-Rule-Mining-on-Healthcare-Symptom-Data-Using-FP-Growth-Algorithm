@@ -64,9 +64,9 @@ FP-Growth was chosen because our dataset has 246,945 rows and 377 symptom column
 |---|---|
 | Symptoms after preprocessing | 149 / 377 |
 | Frequent itemsets found | 358 |
-| — 1-item | 149 |
-| — 2-item (pairs) | 204 |
-| — 3-item (triplets) | 5 |
+| 1-item | 149 |
+| 2-item (pairs) | 204 |
+| 3-item (triplets) | 5 |
 | **Valid association rules** | **214** |
 | Rules passing all filters | 214 / 214 (100%) |
 | Average support | 0.0149 (1.49%) |
@@ -78,7 +78,7 @@ FP-Growth was chosen because our dataset has 246,945 rows and 377 symptom column
 ### FP-Growth Parameters
 
 ```python
-MIN_SUPPORT        = 0.01   # 1% — at least 2,469 patients
+MIN_SUPPORT        = 0.01   # 1% at least 2,469 patients
 MIN_CONFIDENCE     = 0.30   # 30%
 MIN_LIFT           = 1.20
 MAX_ITEMSET_LENGTH = 3
