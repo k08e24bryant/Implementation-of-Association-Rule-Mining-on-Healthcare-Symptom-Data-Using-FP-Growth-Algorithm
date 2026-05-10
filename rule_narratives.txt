@@ -1,0 +1,69 @@
+Rule 1: [hostile behavior] => [drug abuse]
+  Support    : 0.0107  (1.07% of 92,335 patients)
+  Confidence : 0.537  ('drug abuse' appears 53.7% of the time when 'hostile behavior' is present)
+  Lift       : 22.013  (strongly stronger than random co-occurrence)
+  Conviction : 2.107  (high directional dependency)
+  Zhang      : 0.974  (positive = confirmed positive correlation)
+
+Rule 2: [drug abuse] => [hostile behavior]
+  Support    : 0.0107  (1.07% of 92,335 patients)
+  Confidence : 0.440  ('hostile behavior' appears 44.0% of the time when 'drug abuse' is present)
+  Lift       : 22.013  (strongly stronger than random co-occurrence)
+  Conviction : 1.749  (moderate directional dependency)
+  Zhang      : 0.978  (positive = confirmed positive correlation)
+
+Rule 3: [hand or finger swelling] => [wrist swelling]
+  Support    : 0.0104  (1.04% of 92,335 patients)
+  Confidence : 0.461  ('wrist swelling' appears 46.1% of the time when 'hand or finger swelling' is present)
+  Lift       : 19.238  (strongly stronger than random co-occurrence)
+  Conviction : 1.810  (moderate directional dependency)
+  Zhang      : 0.970  (positive = confirmed positive correlation)
+
+Rule 4: [wrist swelling] => [hand or finger swelling]
+  Support    : 0.0104  (1.04% of 92,335 patients)
+  Confidence : 0.434  ('hand or finger swelling' appears 43.4% of the time when 'wrist swelling' is present)
+  Lift       : 19.238  (strongly stronger than random co-occurrence)
+  Conviction : 1.727  (moderate directional dependency)
+  Zhang      : 0.971  (positive = confirmed positive correlation)
+
+Rule 5: [wrist swelling] => [wrist pain]
+  Support    : 0.0117  (1.17% of 92,335 patients)
+  Confidence : 0.489  ('wrist pain' appears 48.9% of the time when 'wrist swelling' is present)
+  Lift       : 18.323  (strongly stronger than random co-occurrence)
+  Conviction : 1.905  (moderate directional dependency)
+  Zhang      : 0.969  (positive = confirmed positive correlation)
+
+Rule 6: [wrist pain] => [wrist swelling]
+  Support    : 0.0117  (1.17% of 92,335 patients)
+  Confidence : 0.439  ('wrist swelling' appears 43.9% of the time when 'wrist pain' is present)
+  Lift       : 18.323  (strongly stronger than random co-occurrence)
+  Conviction : 1.740  (moderate directional dependency)
+  Zhang      : 0.971  (positive = confirmed positive correlation)
+
+Rule 7: [foreign body sensation in eye] => [spots or clouds in vision]
+  Support    : 0.0159  (1.59% of 92,335 patients)
+  Confidence : 0.460  ('spots or clouds in vision' appears 46.0% of the time when 'foreign body sensation in eye' is present)
+  Lift       : 14.374  (strongly stronger than random co-occurrence)
+  Conviction : 1.792  (moderate directional dependency)
+  Zhang      : 0.964  (positive = confirmed positive correlation)
+
+Rule 8: [spots or clouds in vision] => [foreign body sensation in eye]
+  Support    : 0.0159  (1.59% of 92,335 patients)
+  Confidence : 0.498  ('foreign body sensation in eye' appears 49.8% of the time when 'spots or clouds in vision' is present)
+  Lift       : 14.374  (strongly stronger than random co-occurrence)
+  Conviction : 1.924  (moderate directional dependency)
+  Zhang      : 0.961  (positive = confirmed positive correlation)
+
+Rule 9: [vaginal pain] => [vaginal discharge]
+  Support    : 0.0126  (1.26% of 92,335 patients)
+  Confidence : 0.499  ('vaginal discharge' appears 49.9% of the time when 'vaginal pain' is present)
+  Lift       : 13.983  (strongly stronger than random co-occurrence)
+  Conviction : 1.925  (moderate directional dependency)
+  Zhang      : 0.952  (positive = confirmed positive correlation)
+
+Rule 10: [vaginal discharge] => [vaginal pain]
+  Support    : 0.0126  (1.26% of 92,335 patients)
+  Confidence : 0.352  ('vaginal pain' appears 35.2% of the time when 'vaginal discharge' is present)
+  Lift       : 13.983  (strongly stronger than random co-occurrence)
+  Conviction : 1.504  (moderate directional dependency)
+  Zhang      : 0.963  (positive = confirmed positive correlation)
