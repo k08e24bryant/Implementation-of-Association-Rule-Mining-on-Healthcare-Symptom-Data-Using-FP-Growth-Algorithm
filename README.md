@@ -18,10 +18,10 @@ This project implements **Association Rule Mining (ARM)** on a large-scale binar
 **Why FP-Growth over Apriori?**
 | | Apriori | FP-Growth |
 |---|---|---|
-| Candidate generation | ✅ Required (slow) | ❌ Not needed |
+| Candidate generation | Required (slow) | Not needed |
 | Database scans | Multiple per level | 2 total |
 | Memory usage | High | Efficient |
-| Best for | Small datasets | Large sparse datasets ✅ |
+| Best for | Small datasets | Large sparse datasets |
 
 FP-Growth was chosen because our dataset has 246,945 rows and 377 symptom columns — Apriori would be computationally infeasible at this scale.
 
